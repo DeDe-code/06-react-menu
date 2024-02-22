@@ -91,6 +91,11 @@ console.log(myArray); // [1, 3]
 ```js
 const tempCategories = menu.map((item) => item.category);
 const tempSet = new Set(tempCategories);
-const tempItems = ['all', ...tempSet];
+const tempItems = ["all", ...tempSet];
+console.log(tempItems);
+
+const tempCategories = menu.map((item) => item.category);
+const tempSet = new Set(tempCategories);
+const tempItems = ["all", ...tempSet];
 console.log(tempItems);
 ```
